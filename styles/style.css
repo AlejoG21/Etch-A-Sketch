@@ -1,0 +1,14 @@
+#container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(4,1fr);
+max-width: 1000px;
+max-width: 1000px;
+width: 1000px;
+height:1000px;
+}
+.gridblock{
+    background-color:rgba(0, 0, 0, 0);
+    display: flex;
+    border: 1px dotted rgba(0, 200, 220, .9);
+}
